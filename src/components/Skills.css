@@ -1,0 +1,10 @@
+.skill_title{
+    text-align: center;
+    padding: 20px;
+}
+
+.skill_set{
+    display: flex;
+    justify-content: center;
+}
+

@@ -1,0 +1,36 @@
+.user{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    align-items: center;
+}
+
+.userDetails_name{
+    padding-top: 15px ;
+}
+
+.userDetails_domain{
+    color: #F50057;
+}
+
+.userDetails_description{
+    padding-top: 15px;
+    width: 400px;
+}
+
+.user_banner{
+    width: 600px;
+    height: 400px;
+}
+
+@media(max-width: 786px){
+   .user{
+    /* flex-direction: column; */
+    /* align-items: center; */
+   }
+
+   .user_banner{
+    display: none;
+   }
+}
+

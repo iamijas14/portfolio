@@ -1,0 +1,10 @@
+.mainPage{
+    /* margin: 40px 100px */
+}
+
+@media(max-width: 786px) {
+    .user{
+        /* display: flex; */
+        /* justify-content: center; */
+    }
+}
