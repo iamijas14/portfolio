@@ -1,0 +1,57 @@
+.reumseCard{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 7px;
+
+}
+
+.resumeCard_logo{
+    padding-right: 30px;
+}
+
+.info >p:nth-of-type(1){
+    font-weight: 600;
+    color: #F50057;
+}
+
+.resumeCard_skill{
+    text-align: start;
+    width: 300px;
+}
+
+.resumeCard_skill > li {
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.resume_heading{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.resume_heading > a > button {
+    border: none;
+    padding: 10px;
+    background-color: #F50057;
+    border-radius: 5px;
+    margin: 0 20px;
+    cursor: pointer;
+    font-weight: 600;
+} 
+
+.resume_heading > a > button:hover{
+    opacity: 0.5;
+    color:white
+}
+
+.resume_content{
+    display: flex;
+    justify-content: center;
+}
+
+.resume_right, .resume_center, .resume_left > h3 {
+    text-align: center;
+} 

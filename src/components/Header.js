@@ -18,18 +18,26 @@ const Header = () => {
     <div className={`header ${isScroll && 'header_scroll'}`}>
 
         <div className={isMobile ? 'header_navMobile': 'header_container desktop'} >
-                <li>
-                    Home
-                </li>
-                <li>
-                    Resume
-                </li>
-                <li>
-                    Projects                   
-                </li>
-                <li>
-                    Contact me
-                </li>
+                <a href='#home'>
+                    <li>
+                        Home
+                    </li>
+                </a>
+                <a href='#resume'>
+                    <li>
+                        Resume
+                    </li>
+                </a>
+                <a href='#projects'>
+                    <li>
+                        Projects
+                    </li>
+                </a>
+                <a href='#contact'>
+                    <li>
+                        Contact me
+                    </li>
+                </a>
         </div>
 
         <div className='header_open_close' onClick={() => setMobile(!isMobile)}>

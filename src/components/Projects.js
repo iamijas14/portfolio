@@ -1,40 +1,16 @@
 import './Projects.css'
 import ProjectCard from './ProjectCard';
-import amazonClone from '../images/amazon.png'
-
-const projectInfo = [
-    {
-        id:1,
-        image:amazonClone,
-        title:"amazon-clone",
-        desc:"e-commerce clone with payment functionality, add product to cart, login and create new account using ReactJs, stripeAPI"
-    },
-    {
-        id:2,
-        image:amazonClone,
-        title:"amazon-clone",
-        desc:"e-commerce clone with payment functionality, add product to cart, login and create new account using ReactJs, stripeAPI"
-    },
-    {
-        id:3,
-        image:amazonClone,
-        title:"amazon-clone",
-        desc:"e-commerce clone with payment functionality, add product to cart, login and create new account using ReactJs, stripeAPI"
-    },
-    {
-        id:4,
-        image:amazonClone,
-        title:"amazon-clone",
-        desc:"e-commerce clone with payment functionality, add product to cart, login and create new account using ReactJs, stripeAPI"
-    }
-]
+import { useSelector } from 'react-redux';
 
 const Project = () => {
+
+    const projectInfo = useSelector(state => state.reducer.projectInfo);
+
   return (
     <div>
         <section className='project'>
             <div className='project_heading'>
-                <h2>My Project</h2>
+                <h2 id='projects'>My Project</h2>
             </div>
 
             <div className='project_content'>
@@ -42,7 +18,8 @@ const Project = () => {
                     return <ProjectCard 
                     image={item.image}
                     title={item.title}
-                    // desc={item.desc}
+                    desc={item.desc}
+                    link={item?.link}
                 />
                 })}
             </div>

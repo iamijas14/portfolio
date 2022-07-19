@@ -2,6 +2,7 @@ import './MainPage.css'
 import UserInfo from './UserInfo'
 import Skills from './Skills'
 import Project from './Projects'
+import Resume from './Resume/resume.js'
 
 
 const MainPage = () => {
@@ -10,6 +11,7 @@ const MainPage = () => {
         <UserInfo />
         <Skills />
         <Project />
+        <Resume />
     </div>
   )
 }

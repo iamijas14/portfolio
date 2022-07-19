@@ -14,14 +14,19 @@
     /* flex: 1; */
 }
 
-.header_container > li {
+.header_container > a > li {
     cursor: pointer;
     list-style: none;
-    transition: 0.5s;
     padding-right: 30px; 
+    transition: 0.5s;
 }
 
-.header_container > li:hover {
+.header_container > a {
+    text-decoration: none;
+    color: black;
+}
+
+.header_container > a > li:hover {
     font-size: 17px;
     color: #F50057;
 }

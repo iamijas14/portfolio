@@ -1,5 +1,9 @@
+import { ResumeInfo, projectInfo } from './data';
+
 const initialState = {
     userName: "Ijas Mohammed",
+    projectInfo: projectInfo,
+    ResumeInfo: ResumeInfo
 
 }
 

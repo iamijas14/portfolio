@@ -2,6 +2,10 @@
     margin: 40px;
 }
 
+.project_heading{
+    text-align: center;
+}
+
 .project_content{
     display: flex;
     justify-content: center;
