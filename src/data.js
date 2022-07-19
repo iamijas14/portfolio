@@ -1,5 +1,5 @@
-import amazonClone from './images/amazon.png'
-import netflixClone from './images/netflix.png'
+import amazonClone from './components/Project/amazon.png'
+import netflixClone from './components/Project/netflix.png'
 import SchoolIcon from '@mui/icons-material/School';
 import WorkIcon from '@mui/icons-material/Work';
 

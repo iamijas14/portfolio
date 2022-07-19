@@ -7,10 +7,10 @@ const Project = () => {
     const projectInfo = useSelector(state => state.reducer.projectInfo);
 
   return (
-    <div>
+    <div id='projects'>
         <section className='project'>
             <div className='project_heading'>
-                <h2 id='projects'>My Project</h2>
+                <h2 >My Project</h2>
             </div>
 
             <div className='project_content'>

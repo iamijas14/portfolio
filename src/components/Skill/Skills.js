@@ -1,9 +1,9 @@
 import './Skills.css'
-import html_logo from '../images/html-logo.svg'
-import css_logo from '../images/css-logo.svg'
-import js_logo from '../images/js-logo.svg'
-import react_logo from '../images/react-logo.svg'
-import mulesoft_logo from '../images/mulesoft-logo.svg'
+import html_logo from './html-logo.svg'
+import css_logo from './css-logo.svg'
+import js_logo from './js-logo.svg'
+import react_logo from './react-logo.svg'
+import mulesoft_logo from './mulesoft-logo.svg'
 import Card from './Card'
 
 const Skills = () => {

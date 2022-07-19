@@ -7,10 +7,10 @@ export const Resume = () => {
     const ResumeInfo = useSelector(state => state.reducer.ResumeInfo)
   return (
     <>
-        <div className='resume'>
+        <div className='resume' id='resume'>
             <div className='resume_heading'>
-                <h2 id='resume'>Resume</h2>
-                <a href={require('./IjasResume.pdf')} download = "Ijas's Resume" target="_black"><button>Download</button></a>
+                <h2>Resume</h2>
+                <a href={require('./IjasResume.pdf')} download = "Ijas's Resume"><button>Download</button></a>
             </div>
 
             <div className='resume_content'>

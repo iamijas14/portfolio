@@ -57,7 +57,12 @@
         /* box-shadow: 0px 0px 50px rgb(124, 121, 121); */
     }
 
-    .header_navMobile > li{
+    .header_navMobile > a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .header_navMobile > a > li{
         width: 100%;
         transition: 0.5s;
         line-height: 50px;
@@ -65,7 +70,7 @@
         transition: all 0.5s;
     }
 
-    .header_navMobile > li:hover{
+    .header_navMobile > a > li:hover{
         font-size: 17px;
         color: #F50057;
     }

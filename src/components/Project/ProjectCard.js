@@ -14,8 +14,8 @@ const ProjectCard = ({image, title, desc, link}) => {
             <img src={image} alt='project_image' onClick={togglePopup} />
         </div>
         <div>
-            <h3>{title}</h3>
-            <KeyboardDoubleArrowRightIcon />
+            <h3 onClick={togglePopup}>{title}</h3>
+            <KeyboardDoubleArrowRightIcon onClick={togglePopup}/>
         </div>
     </div>
 
