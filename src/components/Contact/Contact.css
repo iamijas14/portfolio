@@ -15,26 +15,16 @@
   .icon-holder{
     border-radius:50%;
     font-size:20px;
-    padding:20px;
+    padding:15px 20px;
     color:white;
     cursor:pointer;
     margin-right:10px;
     }
-/* 
-.icon-holder{
-    background-color:#F50057;
-    padding: 20px;
-    border-radius: 50%;
-    color: white;
-    text-align: center;
-    font-size: 25px;
-}
-   */
   
   .fab{
     padding: 25px;
     font-size:32px;
-    background:#d23f31;
+    background:#F50057;
     box-shadow:0 6px 20px rgba(0,0,0,0.7);
   }
   
@@ -47,7 +37,7 @@
     display:flex;
     list-style-type:none;
     position:absolute;
-    top:7px;
+    top:12px;
     left:90px;
     opacity: 0;
     transition: all 0.4s ease;

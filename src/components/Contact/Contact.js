@@ -1,7 +1,8 @@
 import './Contact.css'
-import "https://kit.fontawesome.com/7f2b20e485.js"
-
-import React from 'react'
+// import "https://kit.fontawesome.com/7f2b20e485.js"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter, faFacebookF,faLinkedinIn,faInstagram, faFontAwesome } from '@fortawesome/free-brands-svg-icons'
 
 const Contact = () => {
   return (
@@ -9,35 +10,42 @@ const Contact = () => {
         <div className='contact_left'>
             <h3>Connect socially</h3>
 
-            <div class="container">
-                <div class="icon-holder fab"> 
-                    <i class="fa fa-angle-double-right"></i>
-                </div>
+            <div className="container">
+
+                    <FontAwesomeIcon className='icon-holder fab' icon= {faAngleDoubleRight} />
   
-                <ul class="sm-list">
+                <ul className="sm-list">
     
                 <li>
-                    <div class="icon-holder facebook">
-                    <a class="link" href=""><i class="fa fa-facebook"></i></a>
+                    <a className="link" href="">
+                    <div className="icon-holder facebook">
+                        <FontAwesomeIcon icon={faFacebookF}/><i className="fa fa-facebook"></i>
                     </div>
+                    </a>
                 </li>
         
                 <li>
-                <div class="icon-holder linkedin">
-                <a class="link" href="https://www.linkedin.com/in/iamijas14/"><i class="fa fa-linkedin"></i></a>
-                </div>
+                    <a className="link" href="https://www.linkedin.com/in/iamijas14/">
+                    <div className="icon-holder linkedin">
+                        <FontAwesomeIcon icon={faLinkedinIn}/><i className="fa fa-linkedin"></i>
+                    </div>
+                    </a>
                 </li>
         
                 <li>
-                <div class="icon-holder instagram">
-                <a class="link" href=""><i class="fa fa-instagram"></i></a>
-                </div>
+                    <a className="link" href="https://www.instagram.com/iamijas14/">
+                    <div className="icon-holder instagram">
+                        <FontAwesomeIcon icon={faInstagram}/><i className="fa fa-instagram"></i>
+                    </div>
+                    </a>
                 </li>
         
                 <li>
-                <div class="icon-holder twitter">
-                <a class="link"  href=""><i class="fa fa-twitter"></i></a>
-                </div>
+                    <a className="link" href="https://twitter.com/iamijas14">
+                    <div className="icon-holder twitter">
+                        <FontAwesomeIcon icon={faTwitter}/><i className="fa fa-twitter"></i>
+                    </div>
+                    </a>
                 </li>
         
                 </ul>
