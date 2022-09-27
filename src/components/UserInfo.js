@@ -8,7 +8,7 @@ const UserInfo = () => {
     const name = useSelector(state => state.reducer)
 
     const {text} = useTypewriter({
-        words: ['Web developer', 'Mulesoft Developer', 'Reactjs Developer'],
+        words: ['Web developer', 'Mulesoft Developer', 'ReactJS Developer', 'React Native Developer'],
         loop: 0, 
         typeSpeed: 70,
         deleteSpeed: 50,
@@ -22,9 +22,9 @@ const UserInfo = () => {
             <h2 className='userDetails_name'>Hi, I'm {name?.userName}</h2>
             <h2 className='userDetails_domain'> {text}<Cursor /> </h2>
             <p className='userDetails_description'>
-                I'm a web developer. I code and I learn, 
-                practically every day, experimenting with HTML, CSS, JavaScript and reactjs.
-                Create projects alongside to understand the concepts well and also implement all the learnings
+                I'm a web and Mobile application developer. I code and learn 
+                practically every day. Experimenting with HTML, CSS, JavaScript, reactJS and React Native.
+                Create projects alongside to understand the concepts and also implement all the learnings.
             </p>
         </div>
 

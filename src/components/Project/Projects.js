@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 
 const Project = () => {
 
-    const projectInfo = useSelector(state => state.reducer.projectInfo);
+    const {projectInfoPart1, projectInfoPart2} = useSelector(state => state.reducer);
 
   return (
     <div id='projects'>
@@ -14,12 +14,25 @@ const Project = () => {
             </div>
 
             <div className='project_content'>
-                {projectInfo.map((item) => {
+                {projectInfoPart1.map((item) => {
                     return <ProjectCard 
                     image={item.image}
                     title={item.title}
                     desc={item.desc}
                     link={item?.link}
+                    gitLink={item?.gitLink}
+                />
+                })}
+            </div>
+
+            <div className='project_content'>
+                {projectInfoPart2.map((item) => {
+                    return <ProjectCard 
+                    image={item.image}
+                    title={item.title}
+                    desc={item.desc}
+                    link={item?.link}
+                    gitLink={item?.gitLink}
                 />
                 })}
             </div>

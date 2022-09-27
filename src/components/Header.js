@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <div className={`header ${isScroll && 'header_scroll'}`}>
 
-        <div className={isMobile ? 'header_navMobile': 'header_container desktop'} >
+        <div className={isMobile ? 'header_navMobile': 'header_container'} >
                 <a href='#home'>
                     <li>
                         Home

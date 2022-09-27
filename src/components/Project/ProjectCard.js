@@ -2,20 +2,20 @@ import './ProjectCard.css'
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 import { useState } from 'react';
 
-const ProjectCard = ({image, title, desc, link}) => {
+const ProjectCard = ({image, title, desc, link, gitLink}) => {
 
   const [isPopup, setPopup] = useState(false);
   const togglePopup = () => setPopup(!isPopup);
 
   return (
     <>
-    <div className='projectInfo'> 
+    <div className='projectInfo' onClick={togglePopup}> 
         <div className='project_img'>
-            <img src={image} alt='project_image' onClick={togglePopup} />
+            <img src={image} alt='project_image' />
         </div>
         <div>
-            <h3 onClick={togglePopup}>{title}</h3>
-            <KeyboardDoubleArrowRightIcon onClick={togglePopup}/>
+            <h3>{title}</h3>
+            <KeyboardDoubleArrowRightIcon/>
         </div>
     </div>
 
@@ -31,13 +31,13 @@ const ProjectCard = ({image, title, desc, link}) => {
               <h2>{title}</h2>
               <p>{desc}</p>
               <a href={link}><button>VIEW PROJECT</button></a>
-              <a href=''><button>VIEW PROJECT</button></a>
-
-              <div>
-              <button className='projectCard_close' onClick={togglePopup}>X</button>
-              </div>
-
+              <a href={gitLink}><button>VIEW ON GITHUB</button></a>
             </div> 
+
+            <div>
+              <button className='projectCard_close' onClick={togglePopup}>X</button>
+            </div>
+
           </div>
 
         </div>

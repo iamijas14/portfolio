@@ -52,9 +52,7 @@
         padding: 20px;
         list-style: none;
         z-index: 1;
-        /* transition: all 0.5s; */
         box-shadow: 0px 0px 50px rgb(210, 177, 177);
-        /* box-shadow: 0px 0px 50px rgb(124, 121, 121); */
     }
 
     .header_navMobile > a {

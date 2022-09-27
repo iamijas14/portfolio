@@ -17,6 +17,7 @@ const Skills = () => {
           <Card image={css_logo} title='CSS'/>
           <Card image={js_logo} title='JAVASCRIPT'/>
           <Card image={react_logo} title='REACT'/>
+          <Card image={react_logo} title='REACT NATIVE'/>
           <Card image={mulesoft_logo} title='MULESOFT'/>
         </div>
       </div>

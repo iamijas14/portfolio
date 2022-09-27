@@ -2,7 +2,7 @@ import './Contact.css'
 import emailjs from '@emailjs/browser';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter, faFacebookF,faLinkedinIn,faInstagram, faFontAwesome } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faGithub,faFacebookF,faLinkedinIn,faInstagram, faFontAwesome } from '@fortawesome/free-brands-svg-icons'
 import { useState } from 'react';
 
 const Contact = () => {
@@ -37,20 +37,17 @@ const Contact = () => {
         <section id='contact'>
         <div className='contact_left'>
             <h3>Connect socially</h3>
-
             <div className="container">
-
                 <FontAwesomeIcon className='icon-holder fab' icon= {faAngleDoubleRight} />
   
                 <ul className="sm-list">
-    
-                <li>
+                {/* <li>
                     <a className="link" href="">
                     <div className="icon-holder facebook">
                         <FontAwesomeIcon icon={faFacebookF}/><i className="fa fa-facebook"></i>
                     </div>
                     </a>
-                </li>
+                </li> */}
         
                 <li>
                     <a className="link" href="https://www.linkedin.com/in/iamijas14/">
@@ -59,14 +56,22 @@ const Contact = () => {
                     </div>
                     </a>
                 </li>
-        
+
                 <li>
+                    <a className="link" href="https://github.com/iamijas14">
+                    <div className="icon-holder linkedin">
+                        <FontAwesomeIcon icon={faGithub}/><i className="fa fa-linkedin"></i>
+                    </div>
+                    </a>
+                </li>
+        
+                {/* <li>
                     <a className="link" href="https://www.instagram.com/iamijas14/">
                     <div className="icon-holder instagram">
                         <FontAwesomeIcon icon={faInstagram}/><i className="fa fa-instagram"></i>
                     </div>
                     </a>
-                </li>
+                </li> */}
         
                 <li>
                     <a className="link" href="https://twitter.com/iamijas14">
@@ -102,8 +107,6 @@ const Contact = () => {
                     <button type="submit" value="Send">Submit</button>
                 </div>
             </form>
-
-            {isResult ? (<p>Message sent. Thank you for your time.</p>) : null}
         </div>
     </div>
    
