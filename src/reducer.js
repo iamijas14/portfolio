@@ -5,14 +5,13 @@ const initialState = {
     projectInfoPart1: projectInfoPart1,
     projectInfoPart2: projectInfoPart2,
     ResumeInfo: ResumeInfo
-
 }
 
 const reducer = (state = initialState, action) => {
 
-    switch(action.type) {
+    switch (action.type) {
         default: return state
     }
-  };
+};
 
 export default reducer;
