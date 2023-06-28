@@ -5,6 +5,7 @@ import { useState } from 'react';
 const ProjectCard = ({ image, title, desc, link, gitLink }) => {
 
   const [isPopup, setPopup] = useState(false);
+
   const togglePopup = () => setPopup(!isPopup);
 
   return (

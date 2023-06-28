@@ -74,7 +74,7 @@ const Contact = () => {
                 </li> */}
 
                             <li>
-                                <a className="link" href="https://twitter.com/iamijas14">
+                                <a className="link" href="">
                                     <div className="icon-holder twitter">
                                         <FontAwesomeIcon icon={faTwitter} /><i className="fa fa-twitter"></i>
                                     </div>

@@ -11,7 +11,7 @@ export const projectInfoPart1 = [
     {
         id: 1,
         image: amazonClone,
-        title: "amazon-clone",
+        title: "Amazon eCommerce clone",
         desc: "e-commerce clone with payment functionality, add product to cart, login and create new account using ReactJs, stripeAPI",
         link: 'https://clone-41e93.web.app/',
         gitLink: 'https://github.com/iamijas14/amazon-clone'
@@ -19,17 +19,17 @@ export const projectInfoPart1 = [
     {
         id: 2,
         image: netflixClone,
-        title: "video streaming wedsite(Netflix-clone-UI)",
+        title: "Video streaming wedsite (Netflix UI)",
         desc: "UI of video streaming wedsite",
         link: 'https://netflix-clone-ea10f.web.app/',
-        gitLink: 'https://github.com/iamijas14/amazon-clone'
+        gitLink: ''
     },
     {
         id: 3,
         image: spotify,
-        title: "music-player(spotify-clone version)",
+        title: "Music player (spotify clone)",
         desc: "Music player website with UI, create playlist and playlist view and list of songs functionality",
-        link: 'https://netflix-clone-ea10f.web.app/',
+        link: '',
         gitLink: 'https://github.com/iamijas14/spotify-clone'
     },
     {
@@ -37,7 +37,7 @@ export const projectInfoPart1 = [
         image: Notes14,
         title: "Notes14",
         desc: "A to-do list mobile application using React Native",
-        // link: '',
+        link: '',
         gitLink: 'https://github.com/iamijas14/to-do'
     }
 ];
@@ -48,7 +48,7 @@ export const projectInfoPart2 = [
         image: Signal14,
         title: "Signal14",
         desc: "Chat application using React Native with realtime chat, create chate, login and register user",
-        // link: '',
+        link: '',
         gitLink: 'https://github.com/iamijas14/signal-clone'
     },
 ];
@@ -83,7 +83,7 @@ export const ResumeInfo = [
     {
         id: 4,
         category: "skills",
-        skill: "Front-end Web Development: HTML, CSS, REACT_JS, Redux"
+        skill: "Frontend Web Development: HTML, CSS, REACT, Redux"
     },
     {
         id: 5,
@@ -93,17 +93,22 @@ export const ResumeInfo = [
     {
         id: 6,
         category: "skills",
-        skill: "API development: API design, integrate and development using API led connectivity"
+        skill: "API development: API design, integrate and development using Mulesoft"
     },
     {
         id: 7,
         category: "skills",
         skill: "Versioning – Github, Bitbucket"
     },
+    {
+        id: 8,
+        category: "skills",
+        skill: "Cloud integration"
+    },
 
     //--------------------Work--------------------
     {
-        id: 8,
+        id: 9,
         category: "experience",
         year: "Sep,2021 - present",
         company: "Apisero global integreted pvt ltd",
